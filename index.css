@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #111827;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 35px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Inter'
+}
+
+img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.josefine {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+textarea {
+    width: 315px;
+    height: 100px;
+    padding: 15px 12px;
+    resize: none;
+}
+
+input {
+    max-width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+textarea, input {
+    background-color: #444059;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+textarea, input:focus {
+    outline: none;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: #0EA5E9;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #7DD3FC;
+    cursor: pointer;
+}
+
+#endorsements-container div {
+    background-color: white;
+    color: #1B1924;
+    text-align: start;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+#endorsements-container h3,p {
+   font-size: 14px;
+}
+

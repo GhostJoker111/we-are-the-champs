@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <img src="assets/freddie.png">
+            <h1 class="josefine">We are the Champions</h1>
+            <form id="main-el" class="main">
+                <textarea id="endorsements-text" placeholder="Write your endorsement here" required></textarea>
+                <div class="inputs">
+                    <input id="endorsements-from" type="text" placeholder="From" required>
+                    <input id="endorsements-to" type="text" placeholder="To" required>
+                </div>
+                <button class="josefine">Publish</button>
+            </form>
+            <h3 class="josefine">- Endorsements -</h3>
+            <div id="endorsements-container"></div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
